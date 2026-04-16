@@ -106,10 +106,10 @@ Esta API utiliza **Spring Security** para proteger os endpoints. Os recursos pú
 |--------|------|-----------|:---:|
 | `POST` | `/auth/register` | Cria novos usuários | ❌ |
 | `POST` | `/auth/login` | Realiza login | ❌ |
-| `GET` | `/tarefas` | Lista todas as tarefas | ✅ |
-| `POST` | `/tarefas` | Cria uma nova tarefa | ✅ |
-| `PUT` | `/tarefas/{id}` | Atualiza uma tarefa | ✅ |
-| `DELETE` | `/tarefas/{id}` | Remove uma tarefa | ✅ |
+| `GET` | `/tasks` | Lista todas as tarefas | ✅ |
+| `POST` | `/tasks/create` | Cria uma nova tarefa | ✅ |
+| `PUT` | `/tasks/update/{id}` | Atualiza uma tarefa | ✅ |
+| `DELETE` | `/tasks/{id}` | Remove uma tarefa | ✅ |
 
 
 ---
