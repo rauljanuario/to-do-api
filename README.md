@@ -96,7 +96,6 @@ A API estará disponível em: `http://localhost:8080`
 
 Esta API utiliza **Spring Security** para proteger os endpoints. Os recursos públicos e autenticados são configurados via `SecurityFilterChain`.
 
-> A autenticação é realizada via [descreva aqui o método: HTTP Basic, JWT, etc.].
 
 ---
 
